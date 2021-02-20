@@ -119,6 +119,8 @@ ul {
   font-weight: 800; }
 
 footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #00252e;
   position: relative; }
 
@@ -167,7 +169,7 @@ footer * {
   gap: 10px; }
 
 .newletter__form--input {
-  height: 36px;
+  height: 46px;
   color: #00252e; }
 
 .newletter__form--input,
@@ -179,8 +181,8 @@ footer * {
   background-color: #FF52C1;
   color: #ffffff;
   font-weight: 700;
-  padding-top: 11.5px;
-  padding-bottom: 11.5px;
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
   padding-left: 20px;
   padding-right: 20px;
   max-width: max-content;
