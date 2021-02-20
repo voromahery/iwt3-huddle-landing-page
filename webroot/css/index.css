@@ -14,6 +14,9 @@ a {
 a {
   text-decoration: none; }
 
+h2 {
+  font-size: 28px; }
+
 .get-started__button {
   color: #ffffff;
   font-weight: 700;
@@ -51,9 +54,6 @@ a {
 .masthead__header,
 .header__article--heading {
   font-weight: 800; }
-
-.header__article--heading {
-  font-size: 28px; }
 
 .header__article,
 .wrapper,
@@ -103,3 +103,11 @@ a {
   padding-bottom: 4px;
   box-shadow: 0px 0px 2px #FF52C1;
   text-shadow: 0px 0px 2px #FF52C1; }
+
+.build__community {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+
+.build__community--heading {
+  font-weight: 800; }
