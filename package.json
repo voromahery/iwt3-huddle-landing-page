@@ -1,0 +1,25 @@
+{
+  "name": "iwt3-huddle-landing-page",
+  "version": "1.0.0",
+  "description": "![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "node-sass sass -o webroot/css",
+    "scss:watch": "npm run scss && node-sass sass -w -o webroot/css",
+    "start": "npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voromahery/iwt3-huddle-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voromahery/iwt3-huddle-landing-page/issues"
+  },
+  "homepage": "https://github.com/voromahery/iwt3-huddle-landing-page#readme"
+}
