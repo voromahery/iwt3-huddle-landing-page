@@ -1,0 +1,19 @@
+@import "./variable";
+
+.capability__paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.capability__image {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section__capability--wrapper .capability__article:nth-of-type(odd) {
+  background-color: rgba(0, 199, 250, 0.1);
+}
+
+.section__capability--paragraph {
+  color: $primary;
+}
