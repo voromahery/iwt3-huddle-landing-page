@@ -42,6 +42,11 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.masthead,
+.header {
+  padding-left: 20px;
+  padding-right: 20px; }
+
 .masthead__header {
   font-size: 24px; }
 
@@ -110,13 +115,21 @@ ul {
   box-shadow: 0px 0px 2px #FF52C1;
   text-shadow: 0px 0px 2px #FF52C1; }
 
+.section__capability {
+  padding-left: 20px;
+  padding-right: 20px; }
+
 .capability__paragraph {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-.capability__image {
+.capability__image,
+.capability__article {
   padding-top: 60px;
   padding-bottom: 60px; }
+
+.capability__article {
+  text-align: center; }
 
 .section__capability--wrapper .capability__article:nth-of-type(odd) {
   background-color: rgba(0, 199, 250, 0.1); }
@@ -127,7 +140,9 @@ ul {
 .build__community {
   text-align: center;
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .build__community--heading {
   font-weight: 800; }
@@ -135,6 +150,8 @@ ul {
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #00252e;
   position: relative; }
 

@@ -1,13 +1,23 @@
 @import "./variable";
 
+.section__capability {
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+}
+
 .capability__paragraph {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.capability__image {
+.capability__image,
+.capability__article {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.capability__article {
+  text-align: center;
 }
 
 .section__capability--wrapper .capability__article:nth-of-type(odd) {
