@@ -117,3 +117,27 @@ ul {
 
 .build__community--heading {
   font-weight: 800; }
+
+.footer__newletter--form {
+  display: flex;
+  flex-direction: column; }
+
+.newletter__form--input {
+  height: 36px;
+  width: 100%; }
+
+.newletter__form--input,
+.newsletter__form--button {
+  border: none;
+  border-radius: 8px; }
+
+.newsletter__form--button {
+  background-color: #FF52C1;
+  color: #ffffff;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: max-content;
+  margin-left: auto; }
