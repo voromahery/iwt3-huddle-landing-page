@@ -1,1 +1,80 @@
 @import "./variable";
+
+.masthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.masthead__header,.header__article--heading {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.header__article,
+.wrapper {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.wrapper {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header__article {
+  text-align: center;
+}
+
+.masthead__header--link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: #000000;
+}
+
+.header__article--paragraph {
+  color: $paragraph-color;
+}
+
+.masthead__image,
+.icon {
+  max-width: 32px;
+  height: auto;
+}
+
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #a4a9be;
+}
+
+.number {
+  font-size: 64px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.masthead__button {
+  border: 1px solid $secondary;
+  border-radius: 50px;
+  color: $secondary;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 0px 0px 2px $secondary;
+  text-shadow: 0px 0px 2px $secondary;
+}
