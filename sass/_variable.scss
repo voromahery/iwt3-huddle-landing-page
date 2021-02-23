@@ -1,11 +1,25 @@
 // Color
-$paragraph-color:#3d466e; 
+$paragraph-color: #3d466e;
 $primary: hsl(228, 45%, 44%);
-$secondary: #FF52C1;
+$secondary: #ff52c1;
 
 // Path
 $image-path: "../images";
 
 // Padding
 $padding-left: 20px;
-$padding-right: 20px
+$padding-right: 20px;
+
+// Mixins
+
+@mixin reset-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin common-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

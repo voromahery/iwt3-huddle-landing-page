@@ -1,10 +1,11 @@
 @import "./variable";
 
 .masthead {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+ @include common-flex;
+ justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -83,10 +84,6 @@
   font-size: 60px;
 }
 
-// .wrapper2 > .text {
-
-// }
-
 .masthead__button {
   border: 1px solid $secondary;
   border-radius: 50px;
@@ -98,4 +95,10 @@
   padding-bottom: 4px;
   box-shadow: 0px 0px 2px $secondary;
   text-shadow: 0px 0px 2px $secondary;
+}
+
+@media (min-width: 650px) {
+  .container {
+    @include common-flex;
+  }
 }

@@ -1,10 +1,5 @@
 @import "./variable";
 
-.section__capability {
-    padding-left: $padding-left;
-    padding-right: $padding-right;
-}
-
 .capability__paragraph {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -18,6 +13,8 @@
 
 .capability__article {
   text-align: center;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
 }
 
 .section__capability--wrapper .capability__article:nth-of-type(odd) {
@@ -26,4 +23,33 @@
 
 .section__capability--paragraph {
   color: $primary;
+}
+
+@media (min-width: 650px) {
+  .capability__article {
+    @include common-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+    text-align: unset;
+  }
+
+  .section__capability--wrapper .capability__article:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .capability__image {
+    max-width: 50%;
+  }
+
+  .capability__image,
+  .capability__wrapper {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .capability__article {
+    gap: 60px;
+  }
 }
