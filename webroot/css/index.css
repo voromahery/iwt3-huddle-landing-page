@@ -69,6 +69,9 @@ ul {
 .header__article--heading {
   font-weight: 800; }
 
+.header {
+  padding-bottom: 50%; }
+
 .header__article,
 .wrapper,
 .header__image {
@@ -152,7 +155,8 @@ ul {
   background-image: url("../images/bg-section-top-mobile-2.svg"); }
 
 .flowing-conversation__article {
-  padding-bottom: 200px; }
+  position: relative;
+  padding-bottom: 50%; }
 
 .grow-together__article::after,
 .users__article::after {
@@ -161,19 +165,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: 100%;
-  height: 153px;
-  background-position: center bottom;
-  width: 100%;
-  background-size: 100%; }
-
-.grow-together__article::before {
-  content: "";
-  background-image: url("../images/bg-section-bottom-mobile-1.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  bottom: 100%;
-  height: 153px;
+  height: 100%;
   background-position: center bottom;
   width: 100%;
   background-size: 100%; }
@@ -203,7 +195,7 @@ ul {
   position: relative;
   text-align: center;
   padding-top: 120px;
-  padding-bottom: 400px;
+  padding-bottom: 50%;
   padding-left: 20px;
   padding-right: 20px; }
 
@@ -234,8 +226,8 @@ footer::before {
   background-image: url("../images/bg-footer-top-mobile.svg");
   position: absolute;
   left: 0;
-  bottom: 100%;
-  height: 158px;
+  bottom: 99%;
+  height: 100%;
   background-position: center bottom;
   width: 100%;
   background-size: 100%; }

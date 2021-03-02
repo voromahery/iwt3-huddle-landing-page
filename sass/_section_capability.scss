@@ -35,7 +35,8 @@
 }
 
 .flowing-conversation__article {
-  padding-bottom: 200px;
+  position: relative;
+  padding-bottom: 50%;
 }
 
 .grow-together__article::after,
@@ -45,24 +46,24 @@
   position: absolute;
   left: 0;
   bottom: 100%;
-  height: 153px;
+  height: 100%;
   background-position: center bottom;
   width: 100%;
   background-size: 100%;
 }
 
-.grow-together__article::before {
-  content: "";
-  background-image: url("#{$image-path}/bg-section-bottom-mobile-1.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  bottom: 100%;
-  height: 153px;
-  background-position: center bottom;
-  width: 100%;
-  background-size: 100%;
-}
+// .flowing-conversation__article {
+//   // content: "";
+//   background-image: url("#{$image-path}/bg-section-bottom-mobile-1.svg");
+//   background-repeat: no-repeat;
+//   position: absolute;
+//   left: 0;
+//   top: -50px;
+//   height: 153px;
+//   background-position: center bottom;
+//   width: 100%;
+//   background-size: 100%;
+// }
 
 @media (min-width: 650px) {
   .capability__article {

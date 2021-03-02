@@ -14,8 +14,8 @@ footer::before {
   background-image: url("#{$image-path}/bg-footer-top-mobile.svg");
   position: absolute;
   left: 0;
-  bottom: 100%;
-  height: 158px;
+  bottom: 99%;
+  height: 100%;
   background-position: center bottom;
   width: 100%;
   background-size: 100%;
