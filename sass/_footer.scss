@@ -129,6 +129,7 @@ footer::before {
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 20px;
+    @include inline-padding-tablet;
   }
 }
 

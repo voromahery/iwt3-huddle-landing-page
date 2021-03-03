@@ -25,6 +25,11 @@ $image-path: "../images";
   padding-right: 20px;
 }
 
+@mixin inline-padding-tablet {
+  padding-left: calc(96px / 2);
+  padding-right: calc(96px / 2);
+}
+
 @mixin inline-padding-desktop {
   padding-left: 96px;
   padding-right: 96px;

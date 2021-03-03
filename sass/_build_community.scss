@@ -15,6 +15,7 @@
   .build__community {
     padding-top: 20%;
     padding-bottom: 20%;
+    @include inline-padding-tablet;
   }
 }
 

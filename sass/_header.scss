@@ -108,6 +108,11 @@
   .header {
     padding-bottom: 20%;
   }
+
+  .masthead,
+  .header {
+    @include inline-padding-tablet;
+  }
 }
 
 @media (min-width: 850px) {

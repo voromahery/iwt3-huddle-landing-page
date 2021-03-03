@@ -71,6 +71,7 @@
 @media (min-width: 650px) {
   .capability__article {
     @include common-flex;
+    @include inline-padding-tablet;
     justify-content: space-between;
     flex-wrap: nowrap;
     gap: 20px;
