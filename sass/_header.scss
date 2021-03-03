@@ -1,8 +1,8 @@
 @import "./variable";
 
 .masthead {
- @include common-flex;
- justify-content: space-between;
+  @include common-flex;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
@@ -12,8 +12,7 @@
 
 .masthead,
 .header {
-  padding-left: $padding-left;
-  padding-right: $padding-right;
+  @include inline-padding-mobile;
 }
 
 .masthead__header {
@@ -107,6 +106,13 @@
   }
 
   .header {
-   padding-bottom: 20%;
+    padding-bottom: 20%;
+  }
+}
+
+@media (min-width: 850px) {
+  .masthead,
+  .header {
+    @include inline-padding-desktop;
   }
 }

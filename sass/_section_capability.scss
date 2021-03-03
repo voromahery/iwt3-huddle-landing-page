@@ -14,8 +14,7 @@
 .capability__article {
   position: relative;
   text-align: center;
-  padding-left: $padding-left;
-  padding-right: $padding-right;
+  @include inline-padding-mobile;
 }
 
 .section__capability--wrapper .capability__article:nth-of-type(odd) {
@@ -61,7 +60,7 @@
 
 .capability__article::before {
   bottom: 99%;
-  background-position: center bottom; 
+  background-position: center bottom;
 }
 
 .capability__article::after {
@@ -95,28 +94,27 @@
     padding-top: 20%;
     padding-bottom: 20%;
   }
-  
 
   .grow-together__article::before {
     background-image: url("#{$image-path}/bg-section-top-desktop-1.svg");
   }
-  
+
   .users__article::before {
     background-image: url("#{$image-path}/bg-section-top-desktop-2.svg");
   }
-  
+
   .grow-together__article::after {
     background-image: url("#{$image-path}/bg-section-bottom-desktop-1.svg");
   }
-  
+
   .users__article::after {
     background-image: url("#{$image-path}/bg-section-bottom-desktop-2.svg");
   }
-  
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   .capability__article {
     gap: 60px;
+    @include inline-padding-desktop;
   }
 }

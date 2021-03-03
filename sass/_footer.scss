@@ -5,8 +5,7 @@ footer {
   padding-bottom: 60px;
   background-color: #00252e;
   position: relative;
-  padding-left: $padding-left;
-  padding-right: $padding-right;
+  @include inline-padding-mobile;
 }
 
 footer::before {
@@ -133,9 +132,10 @@ footer::before {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   footer {
     gap: 100px;
+    @include inline-padding-desktop;
   }
 
   .footer__article {

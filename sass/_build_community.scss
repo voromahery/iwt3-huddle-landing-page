@@ -4,8 +4,7 @@
   text-align: center;
   padding-top: 50%;
   padding-bottom: 50%;
-  padding-left: $padding-left;
-  padding-right: $padding-right;
+  @include inline-padding-mobile;
 }
 
 .build__community--heading {
@@ -16,5 +15,11 @@
   .build__community {
     padding-top: 20%;
     padding-bottom: 20%;
+  }
+}
+
+@media (min-width: 850px) {
+  .build__community {
+    @include inline-padding-desktop;
   }
 }
