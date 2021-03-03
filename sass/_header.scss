@@ -105,4 +105,8 @@
   .container {
     @include common-flex;
   }
+
+  .header {
+   padding-bottom: 20%;
+  }
 }

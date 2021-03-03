@@ -90,6 +90,29 @@
   .capability__wrapper {
     flex-basis: 50%;
   }
+
+  .flowing-conversation__article {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  
+
+  .grow-together__article::before {
+    background-image: url("#{$image-path}/bg-section-top-desktop-1.svg");
+  }
+  
+  .users__article::before {
+    background-image: url("#{$image-path}/bg-section-top-desktop-2.svg");
+  }
+  
+  .grow-together__article::after {
+    background-image: url("#{$image-path}/bg-section-bottom-desktop-1.svg");
+  }
+  
+  .users__article::after {
+    background-image: url("#{$image-path}/bg-section-bottom-desktop-2.svg");
+  }
+  
 }
 
 @media (min-width: 800px) {
