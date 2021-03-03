@@ -34,3 +34,8 @@ $image-path: "../images";
   padding-left: 96px;
   padding-right: 96px;
 }
+
+@mixin paragraph {
+  font-size: 14px;
+  line-height: 22px;
+}

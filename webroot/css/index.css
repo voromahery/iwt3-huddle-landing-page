@@ -90,6 +90,8 @@ ul {
 
 .header__article--paragraph {
   color: #3d466e;
+  font-size: 14px;
+  line-height: 22px;
   margin-top: 32px;
   margin-bottom: 32px; }
 
@@ -142,7 +144,10 @@ ul {
 
 .capability__paragraph {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3d466e; }
 
 .capability__image,
 .capability__article {
@@ -309,6 +314,9 @@ footer * {
 
 .footer__newsletter--paragraph,
 .footer__article--paragraph {
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
   margin-top: 32px;
   margin-bottom: 32px; }
 

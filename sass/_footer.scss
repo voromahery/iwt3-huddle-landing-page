@@ -65,6 +65,8 @@ footer * {
 
 .footer__newsletter--paragraph,
 .footer__article--paragraph {
+  @include paragraph;
+  color: #ffffff;
   margin-top: 32px;
   margin-bottom: 32px;
 }
