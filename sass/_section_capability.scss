@@ -56,11 +56,17 @@
 }
 
 
-.grow-together__article::after {
+.grow-together__article::after,
+.users__article::after {
   background-image: url("#{$image-path}/bg-section-bottom-mobile-1.svg");
   top: 100%;
-  height: 154px;
+  height: 65px;
 }
+
+.users__article::after {
+  background-image: url("#{$image-path}/bg-section-bottom-mobile-2.svg");
+}
+
 
 @media (min-width: 650px) {
   .capability__article {

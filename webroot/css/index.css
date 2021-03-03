@@ -172,10 +172,14 @@ ul {
   width: 100%;
   background-size: 100%; }
 
-.grow-together__article::after {
+.grow-together__article::after,
+.users__article::after {
   background-image: url("../images/bg-section-bottom-mobile-1.svg");
   top: 100%;
-  height: 154px; }
+  height: 65px; }
+
+.users__article::after {
+  background-image: url("../images/bg-section-bottom-mobile-2.svg"); }
 
 @media (min-width: 650px) {
   .capability__article {
@@ -199,7 +203,6 @@ ul {
     gap: 60px; } }
 
 .build__community {
-  position: relative;
   text-align: center;
   padding-top: 120px;
   padding-bottom: 50%;
@@ -208,17 +211,6 @@ ul {
 
 .build__community--heading {
   font-weight: 800; }
-
-.bbuild__community::after {
-  background-image: url("../images/bg-section-bottom-mobile-2.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  bottom: 100%;
-  height: 153px;
-  background-position: center bottom;
-  width: 100%;
-  background-size: 100%; }
 
 footer {
   padding-top: 60px;
