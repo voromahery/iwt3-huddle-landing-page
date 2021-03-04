@@ -13,6 +13,10 @@
   padding-bottom: 60px;
 }
 
+.capability__heading {
+  @include header-bold;
+}
+
 .capability__article {
   position: relative;
   text-align: center;
@@ -80,7 +84,7 @@
     text-align: unset;
   }
 
-  .section__capability--wrapper .capability__article:nth-of-type(even) {
+  .section__capability--wrapper .capability__article:nth-of-type(odd) {
     flex-direction: row-reverse;
   }
 
@@ -94,8 +98,8 @@
   }
 
   .flowing-conversation__article {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   .grow-together__article::before {

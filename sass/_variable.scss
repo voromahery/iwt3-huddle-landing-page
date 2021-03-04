@@ -39,3 +39,7 @@ $image-path: "../images";
   font-size: 14px;
   line-height: 22px;
 }
+
+@mixin header-bold {
+  font-weight: 800;
+}
