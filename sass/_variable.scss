@@ -1,7 +1,11 @@
 // Color
-$paragraph-color: #3d466e;
 $primary: hsl(228, 45%, 44%);
-$secondary: #ff52c1;
+$secondary: hsl(322, 100%, 66%);
+$light-pink: hsl(321, 100%, 78%);
+$light-red: hsl(0, 100%, 63%);
+$paragraph-color: hsl(192, 100%, 9%);
+$section-background: hsl(207, 100%, 98%);
+
 
 // Path
 $image-path: "../images";
@@ -41,5 +45,6 @@ $image-path: "../images";
 }
 
 @mixin header-bold {
-  font-weight: 800;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
 }

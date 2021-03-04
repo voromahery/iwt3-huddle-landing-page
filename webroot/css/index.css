@@ -82,7 +82,8 @@ ul {
 
 .masthead__header,
 .header__article--heading {
-  font-weight: 800; }
+  font-weight: 700;
+  color: #00252e; }
 
 .header {
   padding-bottom: 50%; }
@@ -103,7 +104,7 @@ ul {
   text-align: center; }
 
 .header__article--paragraph {
-  color: #3d466e;
+  color: #00252e;
   font-size: 14px;
   line-height: 22px;
   margin-top: 32px;
@@ -117,7 +118,8 @@ ul {
 .number {
   font-size: 64px;
   margin-top: 16px;
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  color: #00252e; }
 
 .wrapper {
   display: flex;
@@ -127,16 +129,16 @@ ul {
   font-size: 60px; }
 
 .masthead__button {
-  border: 1px solid #ff52c1;
+  border: 1px solid #ff52bf;
   border-radius: 50px;
-  color: #ff52c1;
+  color: #ff52bf;
   background-color: #ffffff;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 4px;
   padding-bottom: 4px;
-  box-shadow: 0px 0px 2px #ff52c1;
-  text-shadow: 0px 0px 2px #ff52c1; }
+  box-shadow: 0px 0px 2px #ff52bf;
+  text-shadow: 0px 0px 2px #ff52bf; }
 
 @media (min-width: 650px) {
   .container {
@@ -165,7 +167,7 @@ ul {
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 22px;
-  color: #3d466e; }
+  color: #00252e; }
 
 .capability__image,
 .capability__article {
@@ -173,7 +175,8 @@ ul {
   padding-bottom: 60px; }
 
 .capability__heading {
-  font-weight: 800; }
+  font-weight: 700;
+  color: #00252e; }
 
 .capability__article {
   position: relative;
@@ -182,7 +185,7 @@ ul {
   padding-right: 20px; }
 
 .section__capability--wrapper .capability__article:nth-of-type(odd) {
-  background-color: #f6fbff; }
+  background-color: #f5faff; }
 
 .section__capability--paragraph {
   color: #3e52a3; }
@@ -215,7 +218,7 @@ ul {
   background-size: 100%; }
 
 .capability__article::before {
-  bottom: 99%;
+  bottom: 100%;
   background-position: center bottom; }
 
 .capability__article::after {
@@ -303,6 +306,7 @@ footer * {
   color: #ffffff; }
 
 .footer__newsletter--heading {
+  font-size: 24px;
   text-transform: uppercase; }
 
 .contact__wrapper,
@@ -357,7 +361,7 @@ footer * {
   border-radius: 8px; }
 
 .newsletter__form--button {
-  background-color: #ff52c1;
+  background-color: #ff52bf;
   color: #ffffff;
   font-weight: 700;
   padding-top: 16.5px;
