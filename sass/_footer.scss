@@ -20,8 +20,14 @@ footer::before {
   background-size: 100%;
 }
 
-footer * {
-  color: #ffffff;
+.article__heading--link,
+.footer__article--paragraph,
+.contact,
+.footer__newsletter--paragraph,
+.newsletter__form--button,
+.footer__newsletter--heading,
+.social-media__icon {
+  color: #fff;
 }
 
 .footer__newsletter--heading {
@@ -67,7 +73,6 @@ footer * {
 .footer__newsletter--paragraph,
 .footer__article--paragraph {
   @include paragraph;
-  color: #ffffff;
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -91,7 +96,6 @@ footer * {
 
 .newsletter__form--button {
   background-color: $secondary;
-  color: #ffffff;
   font-weight: 700;
   padding-top: 16.5px;
   padding-bottom: 16.5px;
@@ -118,16 +122,12 @@ footer::before {
   gap: 16px;
 }
 
-.social-media__list--item {
-  color: #fff;
+.social-media__icon:hover {
+  color: #1bc2df;
 }
 
-.social-media__list--item:hover {
-  color: $primary;
-}
-
-.social-media__list--item:hover,
-.social-media__list--item {
+.social-media__icon:hover,
+.social-media__icon {
   transition: color ease-in 0.2s;
 }
 

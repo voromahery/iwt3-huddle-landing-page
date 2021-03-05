@@ -317,8 +317,14 @@ footer::before {
   width: 100%;
   background-size: 100%; }
 
-footer * {
-  color: #ffffff; }
+.article__heading--link,
+.footer__article--paragraph,
+.contact,
+.footer__newsletter--paragraph,
+.newsletter__form--button,
+.footer__newsletter--heading,
+.social-media__icon {
+  color: #fff; }
 
 .footer__newsletter--heading {
   font-size: 24px;
@@ -356,7 +362,6 @@ footer * {
 .footer__article--paragraph {
   font-size: 14px;
   line-height: 22px;
-  color: #ffffff;
   margin-top: 32px;
   margin-bottom: 32px; }
 
@@ -376,7 +381,6 @@ footer * {
 
 .newsletter__form--button {
   background-color: #ff52bf;
-  color: #ffffff;
   font-weight: 700;
   padding-top: 16.5px;
   padding-bottom: 16.5px;
@@ -398,14 +402,11 @@ footer::before {
 .social-media__list {
   gap: 16px; }
 
-.social-media__list--item {
-  color: #fff; }
+.social-media__icon:hover {
+  color: #1bc2df; }
 
-.social-media__list--item:hover {
-  color: #3e52a3; }
-
-.social-media__list--item:hover,
-.social-media__list--item {
+.social-media__icon:hover,
+.social-media__icon {
   transition: color ease-in 0.2s; }
 
 .note {
