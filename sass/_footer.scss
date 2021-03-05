@@ -106,32 +106,29 @@ footer * {
   transition: all ease-in 0.2s;
 }
 
-.social-media__icon,
 footer::before {
   background-repeat: no-repeat;
 }
 
-.facebook_icon {
-  background-image: url("#{$image-path}/icon-facebook.svg");
-}
-
-.instagram_icon {
-  background-image: url("#{$image-path}/icon-instagram.svg");
-}
-
-.twitter_icon {
-  background-image: url("#{$image-path}/icon-twitter.svg");
-}
-
-.social-media__icon {
-  display: block;
-  width: 32px;
-  height: 32px;
-  text-indent: -9999px;
-}
-
 .footer__newletter--form div {
   position: relative;
+}
+
+.social-media__list {
+  gap: 16px;
+}
+
+.social-media__list--item {
+  color: #fff;
+}
+
+.social-media__list--item:hover {
+  color: $primary;
+}
+
+.social-media__list--item:hover,
+.social-media__list--item {
+  transition: color ease-in 0.2s;
 }
 
 .note {
