@@ -23,6 +23,10 @@ ul {
   padding: 0;
   margin: 0; }
 
+.get-started__button,
+.get-started__button:hover {
+  transition: background-color ease-in .2s; }
+
 .get-started__button {
   color: #ffffff;
   font-weight: 700;
@@ -34,6 +38,9 @@ ul {
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px; }
+
+.get-started__button:hover {
+  background-color: #ff8fd8; }
 
 @media (min-width: 650px) {
   .get-started__button {
@@ -139,6 +146,13 @@ ul {
   padding-bottom: 4px;
   box-shadow: 0px 0px 2px #ff52bf;
   text-shadow: 0px 0px 2px #ff52bf; }
+
+.masthead__button:hover {
+  color: #ff8fd8;
+  border: 1px solid #ff8fd8;
+  box-shadow: 0px 0px 2px #ff8fd8;
+  text-shadow: 0px 0px 2px #ff8fd8;
+  transition: all ease-in 0.2s; }
 
 @media (min-width: 650px) {
   .container {
@@ -269,7 +283,8 @@ ul {
   padding-right: 20px; }
 
 .build__community--heading {
-  font-weight: 800; }
+  font-weight: 700;
+  color: #00252e; }
 
 @media (min-width: 650px) {
   .build__community {
@@ -348,10 +363,9 @@ footer * {
 .footer__newletter--form {
   display: flex;
   flex-direction: column;
-  gap: 10px; }
+  gap: 22px; }
 
 .newletter__form--input {
-  padding-left: 16px;
   height: 46px;
   color: #00252e; }
 
@@ -370,6 +384,10 @@ footer * {
   padding-right: 20px;
   max-width: max-content;
   margin-left: auto; }
+
+.newsletter__form--button:hover {
+  background-color: #ff8fd8;
+  transition: all ease-in 0.2s; }
 
 .social-media__icon,
 footer::before {
@@ -390,6 +408,22 @@ footer::before {
   height: 32px;
   text-indent: -9999px; }
 
+.footer__newletter--form div {
+  position: relative; }
+
+.note {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  color: #ff4242;
+  display: none; }
+
+.newletter__form--input {
+  width: 100%; }
+
+.newletter__form--input:focus ~ .note {
+  display: block; }
+
 @media (min-width: 650px) {
   footer {
     display: flex;
@@ -398,7 +432,9 @@ footer::before {
     justify-content: space-between;
     gap: 20px;
     padding-left: calc(96px / 2);
-    padding-right: calc(96px / 2); } }
+    padding-right: calc(96px / 2); }
+  .newsletter__form--button {
+    margin-left: auto; } }
 
 @media (min-width: 850px) {
   footer {
@@ -410,6 +446,10 @@ footer::before {
   .footer__newsletter {
     flex-basis: 40%; }
   .newletter__form--input {
+    width: 100%; }
+  .footer__newletter--form {
+    align-items: baseline; }
+  form div {
     width: 100%; } }
 
 @media (min-width: 1000px) {

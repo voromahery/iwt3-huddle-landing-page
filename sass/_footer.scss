@@ -75,11 +75,10 @@ footer * {
 .footer__newletter--form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 22px;
 }
 
 .newletter__form--input {
-  padding-left: 16px;
   height: 46px;
   color: #00252e;
 }
@@ -100,6 +99,11 @@ footer * {
   padding-right: 20px;
   max-width: max-content;
   margin-left: auto;
+}
+
+.newsletter__form--button:hover {
+  background-color: $light-pink;
+  transition: all ease-in 0.2s;
 }
 
 .social-media__icon,
@@ -126,6 +130,26 @@ footer::before {
   text-indent: -9999px;
 }
 
+.footer__newletter--form div {
+  position: relative;
+}
+
+.note {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  color: $light-red;
+  display: none;
+}
+
+.newletter__form--input {
+  width: 100%;
+}
+
+.newletter__form--input:focus ~ .note {
+  display: block;
+}
+
 @media (min-width: 650px) {
   footer {
     display: flex;
@@ -134,6 +158,10 @@ footer::before {
     justify-content: space-between;
     gap: 20px;
     @include inline-padding-tablet;
+  }
+
+  .newsletter__form--button {
+    margin-left: auto;
   }
 }
 
@@ -152,6 +180,13 @@ footer::before {
   }
 
   .newletter__form--input {
+    width: 100%;
+  }
+  .footer__newletter--form {
+    align-items: baseline;
+  }
+
+  form div {
     width: 100%;
   }
 }

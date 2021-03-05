@@ -102,6 +102,14 @@
   text-shadow: 0px 0px 2px $secondary;
 }
 
+.masthead__button:hover {
+  color: $light-pink;
+  border: 1px solid $light-pink;
+  box-shadow: 0px 0px 2px $light-pink;
+  text-shadow: 0px 0px 2px $light-pink;
+  transition: all ease-in 0.2s;
+}
+
 @media (min-width: 650px) {
   .container {
     @include common-flex;

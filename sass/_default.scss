@@ -32,6 +32,11 @@ ul {
   margin: 0;
 }
 
+.get-started__button,
+.get-started__button:hover {
+  transition: background-color ease-in .2s;
+}
+
 .get-started__button {
   color: #ffffff;
   font-weight: 700;
@@ -43,6 +48,10 @@ ul {
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.get-started__button:hover {
+  background-color: $light-pink;
 }
 
 @media (min-width: 650px) {
